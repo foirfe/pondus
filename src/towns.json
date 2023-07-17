@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Harlev",
+    "slug": "harlev"
+  },
+  {
+    "id": 2,
+    "name": "Galten",
+    "slug": "galten"
+  },
+  {
+    "id": 3,
+    "name": "Skovby",
+    "slug": "skovby"
+  },
+  {
+    "id": 4,
+    "name": "Sabro",
+    "slug": "sabro"
+  },
+  {
+    "id": 5,
+    "name": "Hammel",
+    "slug": "hammel"
+  }
+]
