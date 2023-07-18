@@ -1,21 +1,30 @@
-//Dropdown
+* {
+  margin: 0;
+}
+
+:root {
+  --primary-blue: #1b2a56;
+  --orange: #f4900e;
+}
+
 .dropdown-menu {
   width: 200px;
   position: absolute;
   top: 80px;
   list-style: none;
   text-align: start;
-  li {
-    background: #1888ff;
-    cursor: pointer;
-    &:hover {
-      background: #5cabff;
-    }
-  }
-  .clicked {
-    display: none;
-  }
 }
+.dropdown-menu li {
+  background: #1888ff;
+  cursor: pointer;
+}
+.dropdown-menu li:hover {
+  background: #5cabff;
+}
+.dropdown-menu .clicked {
+  display: none;
+}
+
 .dropdown-link {
   display: block;
   width: 100%;
@@ -35,14 +44,14 @@
   width: 75%;
   margin: 0 auto;
   border-radius: 0% 0% 30% 30%;
-  .nav-bar-logo {
-    color: #fff;
-    width: 25%;
-    cursor: pointer;
-    .logo-img {
-      width: 100%;
-    }
-  }
+}
+.nav-bar .nav-bar-logo {
+  color: #fff;
+  width: 25%;
+  cursor: pointer;
+}
+.nav-bar .nav-bar-logo .logo-img {
+  width: 100%;
 }
 
 .fa-firstdraft {
@@ -87,12 +96,10 @@
   display: none;
 }
 
-//Mobile
 @media screen and (max-width: 960px) {
   .NavbarItems {
     position: relative;
   }
-
   .nav-menu {
     display: flex;
     flex-direction: column;
@@ -103,7 +110,6 @@
     opacity: 1;
     transition: all 0.5s ease;
   }
-
   .nav-menu.active {
     background: #242222;
     opacity: 1;
@@ -111,26 +117,22 @@
     transition: all 0.5s ease;
     z-index: 1;
   }
-
   .nav-links {
     text-align: center;
     padding: 2rem;
     width: 100%;
     display: table;
   }
-
   .nav-links:hover {
     background-color: #1888ff;
     border-radius: 0;
   }
-
   .nav-bar-logo {
     position: absolute;
     top: 0;
     left: 0;
     transform: translate(25%, 50%);
   }
-
   .menu-icon {
     display: block;
     position: absolute;
@@ -140,12 +142,10 @@
     font-size: 1.8rem;
     cursor: pointer;
   }
-
   .fa-times {
     color: #fff;
     font-size: 2rem;
   }
-
   .nav-links-mobile {
     display: block;
     text-align: center;
@@ -158,14 +158,12 @@
     color: #fff;
     font-size: 1.5rem;
   }
-
   .nav-links-mobile:hover {
     background: #fff;
     color: #1888ff;
     transition: 250ms;
   }
-
   button {
     display: none;
   }
-}
+}/*# sourceMappingURL=style.css.map */
