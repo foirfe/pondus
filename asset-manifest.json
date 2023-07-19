@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/pondus/static/css/main.270a6a72.css",
-    "main.js": "/pondus/static/js/main.cf73140d.js",
+    "main.css": "/pondus/static/css/main.c5732d90.css",
+    "main.js": "/pondus/static/js/main.eef557a9.js",
     "static/js/787.9bfd3d30.chunk.js": "/pondus/static/js/787.9bfd3d30.chunk.js",
+    "static/media/placeholdergif.gif": "/pondus/static/media/placeholdergif.310164367960709466c5.gif",
     "static/media/logo-small.png": "/pondus/static/media/logo-small.915eed2cd027650d167d.png",
+    "static/media/by-skilt.png": "/pondus/static/media/by-skilt.80d1580f9509cc133a24.png",
     "index.html": "/pondus/index.html",
-    "main.270a6a72.css.map": "/pondus/static/css/main.270a6a72.css.map",
-    "main.cf73140d.js.map": "/pondus/static/js/main.cf73140d.js.map",
+    "main.c5732d90.css.map": "/pondus/static/css/main.c5732d90.css.map",
+    "main.eef557a9.js.map": "/pondus/static/js/main.eef557a9.js.map",
     "787.9bfd3d30.chunk.js.map": "/pondus/static/js/787.9bfd3d30.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.270a6a72.css",
-    "static/js/main.cf73140d.js"
+    "static/css/main.c5732d90.css",
+    "static/js/main.eef557a9.js"
   ]
 }
