@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 //Components
 import NavbarDropdown from "./NavbarDropdown";
 import Logo from "../img/logo-small.png";
@@ -37,9 +37,9 @@ export default function Navbar() {
   return (
     <>
       <nav className="nav-bar">
-        <Link to="/" className="nav-bar-logo" onClick={closeMobileMenu}>
+        <NavLink to="/" className="nav-bar-logo" onClick={closeMobileMenu}>
           <img src={Logo} alt="logo" className="logo-img" />
-        </Link>
+        </NavLink>
         <div className="menu-icon" onClick={handleClick}>
           {click ? (
             <FontAwesomeIcon icon={faTimes} />
@@ -53,24 +53,28 @@ export default function Navbar() {
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
           >
-            <Link className="nav-links" onClick={handleMobileDropdown}>
+            <NavLink className="nav-links" onClick={handleMobileDropdown}>
               Byer <FontAwesomeIcon icon={faCaretDown} />
-            </Link>
+            </NavLink>
             {dropdown && <NavbarDropdown />}
           </li>
           <li className="nav-item">
-            <Link
+            <NavLink
               to="vores-pudsere"
               className="nav-links"
               onClick={closeMobileMenu}
             >
               Vores pudsere
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <Link to="kontakt" className="nav-links" onClick={closeMobileMenu}>
+            <NavLink
+              to="kontakt"
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
               Kontakt
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </nav>

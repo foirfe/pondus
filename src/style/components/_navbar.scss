@@ -35,9 +35,11 @@
   width: 75%;
   margin: 0 auto;
   border-radius: 0% 0% 30% 30%;
+  position: absolute;
+  left: 12.5%;
   .nav-bar-logo {
     color: #fff;
-    width: 25%;
+    width: 16%;
     cursor: pointer;
     .logo-img {
       width: 100%;
@@ -89,6 +91,11 @@
 
 //Mobile
 @media screen and (max-width: 960px) {
+  .nav-bar {
+    .nav-bar-logo {
+      width: 45%;
+    }
+  }
   .NavbarItems {
     position: relative;
   }
@@ -102,6 +109,7 @@
     top: -100%;
     opacity: 1;
     transition: all 0.5s ease;
+    z-index: -1;
   }
 
   .nav-menu.active {
@@ -122,13 +130,6 @@
   .nav-links:hover {
     background-color: #1888ff;
     border-radius: 0;
-  }
-
-  .nav-bar-logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(25%, 50%);
   }
 
   .menu-icon {

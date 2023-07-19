@@ -1,5 +1,5 @@
 import "./style/style.css";
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 //Importing pages
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
@@ -17,6 +17,7 @@ function App() {
         <Route path="/:slug" element={<Town />} />
         <Route path="/vores-pudsere" element={<OurCleaners />} />
         <Route path="/kontakt" element={<Contact />} />
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </div>
   );
