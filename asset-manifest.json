@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/pondus/static/css/main.c5732d90.css",
-    "main.js": "/pondus/static/js/main.eef557a9.js",
+    "main.js": "/pondus/static/js/main.712d7cf3.js",
     "static/js/787.9bfd3d30.chunk.js": "/pondus/static/js/787.9bfd3d30.chunk.js",
     "static/media/placeholdergif.gif": "/pondus/static/media/placeholdergif.310164367960709466c5.gif",
     "static/media/logo-small.png": "/pondus/static/media/logo-small.915eed2cd027650d167d.png",
     "static/media/by-skilt.png": "/pondus/static/media/by-skilt.80d1580f9509cc133a24.png",
     "index.html": "/pondus/index.html",
     "main.c5732d90.css.map": "/pondus/static/css/main.c5732d90.css.map",
-    "main.eef557a9.js.map": "/pondus/static/js/main.eef557a9.js.map",
+    "main.712d7cf3.js.map": "/pondus/static/js/main.712d7cf3.js.map",
     "787.9bfd3d30.chunk.js.map": "/pondus/static/js/787.9bfd3d30.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c5732d90.css",
-    "static/js/main.eef557a9.js"
+    "static/js/main.712d7cf3.js"
   ]
 }
