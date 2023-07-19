@@ -6,7 +6,7 @@ export default function Home() {
     <div className="index-page">
       {/*HEAD*/}
       <Helmet>
-        <title>Pondus | Puds og Polering</title>
+        <title>Pondus - Puds og Polering</title>
         <meta
           name="description"
           content="Pondus - Din pålidelige vinduespudser i Aarhus og omegn. Vi leverer professionel vinduespudsning til både private og erhvervskunder. Få klare og skinnende vinduer i topkvalitet. Kontakt os i dag for et uforpligtende tilbud."

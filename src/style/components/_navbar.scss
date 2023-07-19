@@ -35,7 +35,6 @@
   width: 75%;
   margin: 0 auto;
   border-radius: 0% 0% 30% 30%;
-  position: absolute;
   left: 12.5%;
   .nav-bar-logo {
     color: #fff;
@@ -136,7 +135,7 @@
     display: block;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 15%;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;

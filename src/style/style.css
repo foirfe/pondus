@@ -44,7 +44,6 @@
   width: 75%;
   margin: 0 auto;
   border-radius: 0% 0% 30% 30%;
-  position: absolute;
   left: 12.5%;
 }
 .nav-bar .nav-bar-logo {
@@ -137,7 +136,7 @@
     display: block;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 15%;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
@@ -173,10 +172,28 @@
 .index-page .placeholder-gif {
   width: 100%;
   height: 90vh;
+  position: absolute;
+  top: 0;
+  z-index: -1;
 }
 @media screen and (max-width: 960px) {
   .index-page .placeholder-gif {
     width: 100%;
     height: 95vh;
   }
+}
+
+.town-page .town-header {
+  border: 5px solid black;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 10% auto 0 auto;
+  border-radius: 3%;
+  padding: 0 5% 0 5%;
+}
+.town-page .town-header h1 {
+  text-align: center;
+  font-size: 5em;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */

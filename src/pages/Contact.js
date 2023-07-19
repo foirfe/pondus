@@ -5,7 +5,7 @@ export default function Contact() {
     <div className="contact-page">
       {/*HEAD*/}
       <Helmet>
-        <title>Pondus | Kom i kontakt</title>
+        <title> Kom i kontakt|</title>
       </Helmet>
       <h1>Kontakt</h1>
     </div>
