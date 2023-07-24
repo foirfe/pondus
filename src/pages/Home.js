@@ -18,6 +18,7 @@ export default function Home() {
       </Helmet>
       {/*Body*/}
       <h1>Pondus - Puds og Polering</h1>
+      <div className="divider"></div>
       <img src={placeholder} alt="placeholder" className="placeholder-gif" />
     </div>
   );

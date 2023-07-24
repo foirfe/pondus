@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Town from "./pages/Town";
 import OurCleaners from "./pages/OurCleaners";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/vores-pudsere" element={<OurCleaners />} />
         <Route path="/kontakt" element={<Contact />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
