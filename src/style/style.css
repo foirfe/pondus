@@ -139,6 +139,9 @@ p {
 }
 
 @media screen and (max-width: 960px) {
+  .nav-bar {
+    position: static;
+  }
   .nav-bar .nav-bar-logo {
     width: 30%;
   }
@@ -329,10 +332,19 @@ textarea:focus {
   background-color: rgba(0, 0, 0, 0.89);
   border-radius: 3px;
   padding: 70px 100px;
+  z-index: 2;
 }
 .box .feedback-message {
   color: white;
   font-weight: bold;
+}
+.box form {
+  position: relative;
+}
+.box .form-image {
+  position: absolute;
+  top: 80%;
+  left: 50%;
 }
 
 .input-container {
@@ -410,7 +422,7 @@ textarea:focus {
   z-index: -1;
 }
 .index-page .divider {
-  height: 89vh;
+  height: 98vh;
 }
 @media screen and (max-width: 960px) {
   .index-page .placeholder-gif {
@@ -432,4 +444,12 @@ textarea:focus {
   text-align: center;
   font-size: 5em;
   font-weight: bold;
+}
+
+.contact-page .background-image {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  z-index: -2;
+  top: 0;
 }/*# sourceMappingURL=style.css.map */

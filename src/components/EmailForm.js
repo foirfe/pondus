@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-
+import marcusNoBackground from "../img/marcus-7-no-background.png";
 export default function EmailForm() {
   const form = useRef();
   const nameInput = useRef();
@@ -82,6 +82,7 @@ export default function EmailForm() {
           className="feedback-message"
           dangerouslySetInnerHTML={handlefeedbackMessage()}
         ></p>
+        <img src={marcusNoBackground} alt="Marcus" className="form-image" />
         <input type="submit" value="Send" className="btn" />
       </form>
     </div>

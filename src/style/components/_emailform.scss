@@ -68,9 +68,18 @@ textarea {
   background-color: rgba(0, 0, 0, 0.89);
   border-radius: 3px;
   padding: 70px 100px;
+  z-index: 2;
   .feedback-message {
     color: white;
     font-weight: bold;
+  }
+  form {
+    position: relative;
+  }
+  .form-image {
+    position: absolute;
+    top: 80%;
+    left: 50%;
   }
 }
 .input-container {
