@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 //Components
 import NavbarDropdown from "./NavbarDropdown";
 import Logo from "../img/logo-small.png";
@@ -53,10 +53,13 @@ export default function Navbar() {
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
           >
-            <NavLink className="nav-links" onClick={handleMobileDropdown}>
+            <div
+              className="nav-links dropdown-btn"
+              onClick={handleMobileDropdown}
+            >
               Byer <FontAwesomeIcon icon={faCaretDown} />
-            </NavLink>
-            {dropdown && <NavbarDropdown />}
+              {dropdown && <NavbarDropdown closeMobileMenu={closeMobileMenu} />}
+            </div>
           </li>
           <li className="nav-item">
             <NavLink

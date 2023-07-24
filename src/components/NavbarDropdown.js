@@ -2,10 +2,12 @@ import { useState } from "react";
 import towns from "../towns.json";
 import { Link } from "react-router-dom";
 
-export default function NavbarDropdown() {
+export default function NavbarDropdown({ closeMobileMenu }) {
   const [click, setClick] = useState(false);
 
-  const handleClick = () => setClick(!click);
+  function handleClick() {
+    setClick(!click);
+  }
   return (
     <>
       <ul
@@ -13,8 +15,8 @@ export default function NavbarDropdown() {
         className={click ? "dropdown-menu clicked" : "dropdown-menu"}
       >
         {towns.map((town) => (
-          <li key={town.id}>
-            <Link to={`/${town.slug}`} onClick={() => setClick(false)}>
+          <li key={town.id} className="dropdown-item" onClick={closeMobileMenu}>
+            <Link to={`/by/${town.slug}`} onClick={() => setClick(false)}>
               {town.name}
             </Link>
           </li>
