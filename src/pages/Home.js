@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet";
 import placeholder from "../img/placeholdergif.gif";
+import EmailForm from "../components/EmailForm";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <h1>Pondus - Puds og Polering</h1>
       <div className="divider"></div>
       <img src={placeholder} alt="placeholder" className="placeholder-gif" />
+      <EmailForm />
     </div>
   );
 }

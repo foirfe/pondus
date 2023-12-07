@@ -1,0 +1,15 @@
+.window-cleaning-page {
+  .header-banner {
+    position: relative;
+    height: 20vh;
+    background-position-x: 20%;
+    background-position-y: 50%;
+    h1 {
+      position: absolute;
+      top: 20%;
+      left: 10%;
+      color: white;
+      -webkit-text-stroke: 1px black;
+    }
+  }
+}

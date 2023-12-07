@@ -6,7 +6,7 @@
   list-style: none;
   padding: 0;
   left: -50px;
-  li {
+  div {
     background: var(--orange);
     cursor: pointer;
     &:hover {
@@ -53,16 +53,16 @@
 //Nav-bar
 .nav-bar {
   background: var(--primary-blue);
-  height: 80px;
+  height: 130px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
-  width: 75%;
   margin: 0 auto;
-  border-radius: 0% 0% 30% 30%;
   left: 12.5%;
-  text-transform: uppercase;
+  .links-container {
+    display: flex;
+    margin-right: 10%;
+  }
   .nav-bar-logo {
     color: #fff;
     width: 16%;
@@ -79,14 +79,12 @@
 }
 
 .nav-menu {
-  display: grid;
+  display: flex;
+  justify-content: space-between;
   grid-template-columns: repeat(5, auto);
   grid-gap: 10px;
   list-style: none;
   text-align: center;
-  width: 70vw;
-  justify-content: end;
-  margin-right: 2rem;
 }
 
 .nav-item {
@@ -98,7 +96,15 @@
   color: white;
   text-decoration: none;
   padding: 0.5rem 1rem;
+  font-size: 1.25em;
   font-weight: bold;
+  &.contact {
+    background: var(--orange);
+    border-radius: 10px;
+  }
+  @media screen and (max-width: 810px) {
+    font-size: 1.1em;
+  }
 }
 
 .nav-links:hover {

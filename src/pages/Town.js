@@ -38,6 +38,7 @@ export default function Town() {
       <div className="town-header">
         <h1>{selectedTown.name}</h1>
         <img src={TownSign} alt={selectedTown.name} />
+        <p>{selectedTown?.description}</p>
       </div>
     </div>
   );

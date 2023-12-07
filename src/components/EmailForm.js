@@ -51,10 +51,7 @@ export default function EmailForm() {
   return (
     <div className="box">
       <form ref={form} onSubmit={sendEmail}>
-        <p className="text-center">
-          Få et uforpligtende tilbud: Indtast følgende oplysninger og jeg vender
-          tilbage snarest muligt.
-        </p>
+        <p className="text-center">Få et uforpligtende tilbud!</p>
         <div className="input-container">
           <input type="text" name="user_name" required ref={nameInput} />
           <label>Navn</label>
