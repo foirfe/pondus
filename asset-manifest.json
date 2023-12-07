@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/pondus/static/css/main.2a18c4f4.css",
-    "main.js": "/pondus/static/js/main.bde3d443.js",
+    "main.css": "/pondus/static/css/main.7f4f6054.css",
+    "main.js": "/pondus/static/js/main.00f3e70b.js",
     "static/js/787.9bfd3d30.chunk.js": "/pondus/static/js/787.9bfd3d30.chunk.js",
     "static/media/placeholdergif.gif": "/pondus/static/media/placeholdergif.310164367960709466c5.gif",
+    "static/media/marcus-1.png": "/pondus/static/media/marcus-1.694c4bc94c18e866a9a5.png",
+    "static/media/logo-transparent.png": "/pondus/static/media/logo-transparent.525c8000c2769f99722c.png",
     "static/media/marcus-7-no-background.png": "/pondus/static/media/marcus-7-no-background.1df18942f92b24024b40.png",
-    "static/media/logo-small.png": "/pondus/static/media/logo-small.915eed2cd027650d167d.png",
-    "static/media/by-skilt.png": "/pondus/static/media/by-skilt.80d1580f9509cc133a24.png",
+    "static/media/marcus-2.jpg": "/pondus/static/media/marcus-2.167b813f51f500a49e4c.jpg",
     "index.html": "/pondus/index.html",
-    "main.2a18c4f4.css.map": "/pondus/static/css/main.2a18c4f4.css.map",
-    "main.bde3d443.js.map": "/pondus/static/js/main.bde3d443.js.map",
+    "main.7f4f6054.css.map": "/pondus/static/css/main.7f4f6054.css.map",
+    "main.00f3e70b.js.map": "/pondus/static/js/main.00f3e70b.js.map",
     "787.9bfd3d30.chunk.js.map": "/pondus/static/js/787.9bfd3d30.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a18c4f4.css",
-    "static/js/main.bde3d443.js"
+    "static/css/main.7f4f6054.css",
+    "static/js/main.00f3e70b.js"
   ]
 }
